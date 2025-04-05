@@ -27,7 +27,7 @@ const routes = [
   { path: "/Register", element: <Register/> },
   { path: "/Login", element: <Login/> },
   { path: "/checkEmail", element: <OTPCheck/> },
-  { path: "/Home", element: <Home/> },
+  { path: "/", element: <Home/> },
   { path: "/Community", element: <Community/> },
   { path: "/Courses", element: <Courses/> },
   { path: "/Questions", element: <Questions/> },
