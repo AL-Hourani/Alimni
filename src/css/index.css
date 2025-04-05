@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary-color:#21C063;
+    --white-color:#FFFFFF;
+    --back-color:#000000;
+    --light-color:#8D9497;
+    --background-color:#0B1014;
+    --light-back:#1A1F25;
+    --warning-color:#FE9722;
+    --danger-color:#FA5061;
+}
+.card-shadow {
+    box-shadow: 0px 0px 4px rgba(200,200,200,0.5) ;
+}
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    direction: rtl;
+}
+
+body {
+    font-family: "Tajawal", sans-serif;
+    background-color: var(--background-color);
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+/* color */
+/* --------------- */
+
+.background-color {
+    background-color: var(--background-color);
+}
+
+.backgound-text {
+    color:var(--background-color);
+}
+.background-primary {
+    background-color: var(--primary-color);
+}
+.light-bacground {
+    background-color: var(--light-back) !important;
+}
+.primary-color {
+    color: var(--primary-color);
+}
+.light-color {
+    color: var(--light-color);
+}
+.warning-color {
+    color: var(--warning-color);
+}
+.danger-color {
+    color: var(--danger-color);
+}
+/* --------------- */
+
+/* border  */
+/* -------------------- */
+.primary-border {
+    border: 1px solid var(--primary-color);
+}
+.ligth-border {
+    border: 1px solid var(--light-color);
+}
+.ligth-border-bottom {
+    border-bottom: 1px solid var(--light-color);
+}
+
+input {
+    background-color: var(--light-back) !important;
+}
+/* --------------------- */
+
+textarea {
+    background-color: var(--light-back) !important;
+}
+
+/* ملف CSS مثل app.css */
+.react-player > div {
+    padding: 0 !important;
+  }
+  
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-between {
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+.flex-start {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+button {
+    background-color: var(--light-back) !important;
+    color: white;
+}
+
+
+.li-active {
+    border-bottom: 4px solid var(--primary-color);
+    color:var(--white-color)
+}
+
+
+@keyframes bounce-slow {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .animate-bounce-slow {
+    animation: bounce-slow 4s ease-in-out infinite;
+  }
+  
+
